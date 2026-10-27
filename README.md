@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Web-Based Application for CS Senior Project Preliminary Exam
 
-## Getting Started
+### Project Overview
 
-First, run the development server:
+This is a group senior project developed as a web-based examination system for Computer Science students. The system allows students to take exams online and provides administrators and instructors with tools to manage exams, review student answers, and handle grading.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project also includes an LLM-assisted grading workflow designed to provide suggested scores and feedback. Instructors can review these suggestions and make the final grading decisions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Project Objectives
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The goal of this project is to make the preliminary examination process easier to manage by bringing exam management, answer review, and grading into one system. The LLM-assisted grading feature is intended to support instructors and reduce repetitive work during answer evaluation.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Technologies & Tools
 
-## Learn More
+- **Frontend:** Next.js (React), TypeScript
+- **Backend:** Next.js (TypeScript, server-side functions)
+- **Database:** PostgreSQL, SQL
+- **AI:** Large Language Model (LLM) for grading assistance
+- **Development Tools:** VS Code, pgAdmin 4, Git, GitHub
 
-To learn more about Next.js, take a look at the following resources:
+### My Role & Contributions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Role:** Full-Stack Development (Admin Features) & Database Integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+My main responsibility was developing the admin-side features of the system, especially the Answer Grading and Admin Panel sections.
 
-## Deploy on Vercel
+- Developed frontend pages for viewing exams, student submissions, and answer grading details.
+- Worked on backend functions to retrieve exam, student, and answer information from the database.
+- Used PostgreSQL and SQL to support data management and connect the database with the admin features.
+- Worked on the grading interface where instructors can review AI-suggested scores and feedback, enter final scores, and add remarks.
+- Developed the Admin Panel and user management features, including the frontend interface, form validation, and backend logic.
+- Responsible for integrating LLM-assisted grading into the admin grading workflow to support answer evaluation and provide suggested scores and feedback.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Project Status
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is currently under development as part of a team senior project. The technologies listed above reflect the current team project, while this repository contains an earlier development version. The latest development continues in the team's main repository.
